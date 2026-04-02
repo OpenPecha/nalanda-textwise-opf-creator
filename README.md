@@ -1,41 +1,90 @@
 <h1 align="center">
   <br>
-  <a href="https://openpecha.org"><img src="https://avatars.githubusercontent.com/u/82142807?s=400&u=19e108a15566f3a1449bafb03b8dd706a72aebcd&v=4" alt="OpenPecha" width="150"></a>
+  <a href="https://buddhistai.tools/"><img src="https://raw.githubusercontent.com/WeBuddhist/visual-assets/refs/heads/main/logo/WB-logo-purple.png" alt="OpenPecha" width="150"></a>
   <br>
 </h1>
 
-<h3 align="center">nalanda-textwise-opf-creator</h3>
-
-
-<!-- Replace the title of the repository -->
+<h1 align="center">nalanda-textwise-opf-creator</h1>
 
 <p align="center">
-  <a href="#description">Description</a> •
-  <a href="#owner">Owner</a> •
-  <a href="#integrations">Integrations</a> •
-  <a href="#docs">Docs</a>
+  |MIT| |Python| |NLP|
 </p>
-<hr>
-
-## Description
 
 Preparing textwise opf of katen pedurma.
-<!-- This section provides a high-level overview for the repo -->
 
-## Owner
+## Table of Contents
 
-- [@kaldan7](https://github.com/kaldan7)
-- [@ta4tsering](https://github.com/ta4tsering)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [How to get help](#how-to-get-help)
+- [Terms of use](#terms-of-use)
 
-<!-- This section lists the owners of the repo -->
+## Features
 
-## Integrations
+- NLP tooling for Tibetan/Indic text processing
 
+## Prerequisites
 
-- No integrations with other repos.
+- Python 3.8+
+- pip
 
-<!-- This section must list as bulleted list how this repo depends or is integrated with other repos -->
+## Installation
 
-## Docs
+```bash
+# Clone the repository
+git clone https://github.com/OpenPecha/nalanda-textwise-opf-creator.git
+cd nalanda-textwise-opf-creator
 
-No documentations.
+# Install dependencies
+pip install -r requirements.txt
+
+# Install the package
+pip install -e .
+```
+
+## Usage
+
+```python
+# Add usage example here
+```
+
+## Development
+
+```bash
+# Install dev dependencies
+pip install -e .[dev]
+
+# Run tests
+pytest
+
+# Lint
+flake8
+```
+
+## Testing
+
+```bash
+pytest tests/
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+Please read [CONTRIBUTING.md](https://github.com/OpenPecha/.github/blob/main/CONTRIBUTING.md) for details.
+
+## How to get help
+* File an issue.
+* Join our [discord](https://discord.com/invite/7GFpPFSTeA).
+
+## Terms of use
+MIT is licensed under the [MIT License](/LICENSE).
